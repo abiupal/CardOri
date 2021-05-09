@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {CLASS = CardSettingView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }, 
+        {
+            ACTIONS = {
+                fDown = id; 
+                fGo = id; 
+                fReverse = id; 
+                fSame = id; 
+                fSelect = id; 
+                fUp = id; 
+                inputCmd = id; 
+                open = id; 
+                print = id; 
+                save = id; 
+                yAspect = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_cardSetting" = id; 
+                "_console" = id; 
+                "_fDown" = id; 
+                "_fReverse" = id; 
+                "_fSame" = id; 
+                "_fSelect" = id; 
+                "_fUp" = id; 
+                "_tabView" = id; 
+                "_view" = id; 
+                "_yAspect" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyOpenGLView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }
+    ); 
+    IBVersion = 1; 
+}
